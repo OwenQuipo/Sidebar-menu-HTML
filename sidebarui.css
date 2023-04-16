@@ -1,0 +1,79 @@
+body {
+  background-color: #f1f1f1
+}
+/*sidebar*/
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: left 0.5s ease-in-out;
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #cbcbcb;
+  transition-duration: 0.15s;
+}
+.sidebar a:active {
+  color: #ffffff
+}
+.main {
+  margin-left: 200px;
+  transition: margin-left 0.5s ease-in-out;
+}
+
+.main h2 {
+  margin-bottom: 50px;
+}
+/*headings*/
+.homehead {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 1000px;
+}
+.abouthead {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 1000px;
+}
+.contacthead {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 1000px;
+}
+/*toggle sidebar button*/
+.togside {
+  padding: 5px;
+  margin-left: 8px;
+  border-style:none;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+}
+.togside:hover {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+}
+.togside:active {
+  background-color: #616161;
+  transition-duration: 0.15s;
+}
+#toggle-sidebar {
+  position: fixed;
+  top: 20px;
+  left: 200px;
+  z-index: 2;
+  transition: left 0.5s ease-in-out;
+}
+/*Contents*/
